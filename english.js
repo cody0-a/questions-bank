@@ -3562,6 +3562,16 @@ function eachAnswer(){
         }
     });
 }
+
+function offButton(){
+    const anchorOff = document.querySelectorAll(".each-course");
+    anchorOff.forEach((off) =>{
+        off.style.display = "none";
+    })
+    
+
+}
+
 eachAnswer();
 displayQuestions();
 submitBtn.addEventListener("click", checkAnswers);

@@ -1,0 +1,693 @@
+[
+    {
+      "question": "Which SQL command is used to retrieve data from a database?",
+      "choices": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+      "answer": "SELECT",
+      "explanation": "The SELECT command is used to query and retrieve data from one or more tables in a database."
+    },
+    {
+      "question": "What does the acronym SQL stand for?",
+      "choices": [
+        "Structured Query Language",
+        "Simple Question Language",
+        "System Query Language",
+        "Sequential Query Language"
+      ],
+      "answer": "Structured Query Language",
+      "explanation": "SQL is a standardized programming language used for managing and manipulating relational databases."
+    },
+    {
+      "question": "Which SQL clause is used to filter rows based on a specified condition?",
+      "choices": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+      "answer": "WHERE",
+      "explanation": "The WHERE clause is used to specify conditions that rows must satisfy to be included in the result set."
+    },
+    {
+      "question": "Which SQL command is used to add new rows to a table?",
+      "choices": ["UPDATE", "DELETE", "INSERT", "ALTER"],
+      "answer": "INSERT",
+      "explanation": "The INSERT command is used to add new rows of data into a table."
+    },
+    {
+      "question": "What is a primary key in a database table?",
+      "choices": [
+        "A foreign key",
+        "A unique identifier for each row",
+        "A column used for sorting",
+        "A column that allows null values"
+      ],
+      "answer": "A unique identifier for each row",
+      "explanation": "A primary key is a column or set of columns that uniquely identifies each row in a table. It cannot contain null values."
+    },
+    {
+      "question": "Which SQL command is used to modify existing data in a table?",
+      "choices": ["CREATE", "ALTER", "UPDATE", "DROP"],
+      "answer": "UPDATE",
+      "explanation": "The UPDATE command is used to modify existing records in a table."
+    },
+    {
+      "question": "What is a foreign key in a database table?",
+      "choices": [
+        "A primary key",
+        "A key that references a primary key in another table",
+        "A key used for indexing",
+        "A key that allows duplicate values"
+      ],
+      "answer": "A key that references a primary key in another table",
+      "explanation": "A foreign key is a column or set of columns in one table that refers to the primary key in another table. It is used to establish relationships between tables."
+    },
+    {
+      "question": "Which SQL command is used to remove a table from a database?",
+      "choices": ["TRUNCATE", "DELETE", "DROP", "REMOVE"],
+      "answer": "DROP",
+      "explanation": "The DROP command is used to remove a table and its data from a database."
+    },
+    {
+      "question": "What is an index in a database?",
+      "choices": [
+        "A table of data",
+        "A way to organize data in a specific order",
+        "A data structure that improves the speed of data retrieval",
+        "A constraint on data"
+      ],
+      "answer": "A data structure that improves the speed of data retrieval",
+      "explanation": "An index is a data structure that improves the speed of data retrieval operations on a database table."
+    },
+    {
+      "question": "Which SQL clause is used to sort the result set of a query?",
+      "choices": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
+      "answer": "ORDER BY",
+      "explanation": "The ORDER BY clause is used to sort the result set of a query in ascending or descending order based on one or more columns."
+    },
+    {
+        "question": "What is a database schema?",
+        "choices": [
+          "A collection of data",
+          "A blueprint of the database structure",
+          "A set of SQL queries",
+          "A backup of the database"
+        ],
+        "answer": "A blueprint of the database structure",
+        "explanation": "A database schema defines how data is organized within a relational database."
+      },
+      {
+        "question": "Which SQL keyword is used to combine rows from two or more tables based on a related column between them?",
+        "choices": ["UNION", "INTERSECT", "JOIN", "EXCEPT"],
+        "answer": "JOIN",
+        "explanation": "The JOIN keyword is used to combine rows from two or more tables, often based on a related column."
+      },
+      {
+        "question": "What is a transaction in a database?",
+        "choices": [
+          "A single SQL statement",
+          "A sequence of operations treated as a single unit",
+          "A database backup",
+          "A report generated from the database"
+        ],
+        "answer": "A sequence of operations treated as a single unit",
+        "explanation": "A transaction is a sequence of database operations that are treated as a single logical unit of work."
+      },
+      {
+        "question": "What does ACID stand for in database transactions?",
+        "choices": [
+          "Accessible, Consistent, Isolated, Durable",
+          "Atomic, Consistent, Isolated, Durable",
+          "Accurate, Current, Integrated, Detailed",
+          "Active, Complete, Independent, Direct"
+        ],
+        "answer": "Atomic, Consistent, Isolated, Durable",
+        "explanation": "ACID properties ensure reliable transaction processing in databases."
+      },
+      {
+        "question": "Which SQL command is used to create a new table in a database?",
+        "choices": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "MAKE TABLE"],
+        "answer": "CREATE TABLE",
+        "explanation": "The CREATE TABLE command is used to define and create a new table in a database."
+      },
+      {
+        "question": "What is a view in a database?",
+        "choices": [
+          "A physical table",
+          "A stored query that acts as a virtual table",
+          "A backup of the database",
+          "A report generated from the database"
+        ],
+        "answer": "A stored query that acts as a virtual table",
+        "explanation": "A view is a virtual table based on the result-set of an SQL statement. It is a stored query accessible as a virtual table."
+      },
+      {
+        "question": "Which SQL clause is used to group rows that have the same values into summary rows, like find the number of customers in each country?",
+        "choices": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+        "answer": "GROUP BY",
+        "explanation": "The GROUP BY clause groups rows that have the same values into summary rows."
+      },
+      {
+        "question": "What is a stored procedure in a database?",
+        "choices": [
+          "A backup of the database",
+          "A set of SQL statements with an assigned name, stored in the database",
+          "A physical table",
+          "A report generated from the database"
+        ],
+        "answer": "A set of SQL statements with an assigned name, stored in the database",
+        "explanation": "A stored procedure is a set of SQL statements with an assigned name, which is stored in the database and can be executed when needed."
+      },
+      {
+        "question": "Which SQL command is used to remove a column from a table?",
+        "choices": ["DELETE COLUMN", "REMOVE COLUMN", "ALTER TABLE DROP COLUMN", "DROP COLUMN"],
+        "answer": "ALTER TABLE DROP COLUMN",
+        "explanation": "The ALTER TABLE DROP COLUMN command is used to remove an existing column from a table."
+      },
+      {
+        "question": "What is normalization in database design?",
+        "choices": [
+          "Adding redundant data",
+          "Organizing data to reduce redundancy and improve data integrity",
+          "Backing up the database",
+          "Creating indexes"
+        ],
+        "answer": "Organizing data to reduce redundancy and improve data integrity",
+        "explanation": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity."
+      },
+      {
+        "question": "What is a subquery in SQL?",
+        "choices": [
+          "A query within another query",
+          "A query that creates a new table",
+          "A query that updates data",
+          "A query that deletes data"
+        ],
+        "answer": "A query within another query",
+        "explanation": "A subquery is a query nested inside another query, used to retrieve data that will be used by the outer query."
+      },
+        {
+            "question": "What is the purpose of the 'HAVING' clause in SQL?",
+            "choices": ["To filter rows before grouping", "To filter grouped rows", "To sort rows", "To join tables"],
+            "answer": "To filter grouped rows",
+            "explanation": "The 'HAVING' clause is used to filter the results of a 'GROUP BY' clause, applying conditions to the grouped rows."
+        },
+        {
+            "question": "What is a composite key?",
+            "choices": ["A key that is used for sorting", "A key that is used for indexing", "A primary key that consists of multiple columns", "A foreign key that consists of multiple columns"],
+            "answer": "A primary key that consists of multiple columns",
+            "explanation": "A composite key is a primary key that consists of two or more columns in a table."
+        },
+        {
+            "question": "What is the purpose of the 'TRUNCATE TABLE' command?",
+            "choices": ["To delete specific rows from a table", "To delete a table and its data", "To remove all rows from a table quickly", "To modify a table structure"],
+            "answer": "To remove all rows from a table quickly",
+            "explanation": "The 'TRUNCATE TABLE' command removes all rows from a table, but it does not delete the table itself, and it is faster than 'DELETE'."
+        },
+        {
+            "question": "What is a database trigger?",
+            "choices": ["A command to start a database", "A stored procedure that automatically executes in response to certain events", "A backup of the database", "A report generated from the database"],
+            "answer": "A stored procedure that automatically executes in response to certain events",
+            "explanation": "A database trigger is a stored procedure that automatically executes in response to certain events, such as INSERT, UPDATE, or DELETE operations on a table."
+        },
+        {
+            "question": "Which SQL data type is used to store variable-length character strings?",
+            "choices": ["INT", "DATE", "VARCHAR", "BOOLEAN"],
+            "answer": "VARCHAR",
+            "explanation": "The 'VARCHAR' data type is used to store variable-length character strings."
+        },
+        {
+            "question": "What is the purpose of the 'UNION' operator in SQL?",
+            "choices": ["To join tables", "To filter rows", "To combine the result sets of two or more SELECT statements", "To sort rows"],
+            "answer": "To combine the result sets of two or more SELECT statements",
+            "explanation": "The 'UNION' operator is used to combine the result sets of two or more SELECT statements into a single result set."
+        },
+        {
+            "question": "What is a database constraint?",
+            "choices": ["A limit on the number of users", "A rule that restricts the data that can be stored in a table", "A backup of the database", "A report generated from the database"],
+            "answer": "A rule that restricts the data that can be stored in a table",
+            "explanation": "A database constraint is a rule that restricts the data that can be stored in a table, ensuring data integrity."
+        },
+        {
+            "question": "What is the difference between 'DELETE' and 'TRUNCATE' in SQL?",
+            "choices": ["'DELETE' removes all rows, 'TRUNCATE' removes specific rows", "'DELETE' is faster, 'TRUNCATE' is slower", "'DELETE' can be rolled back, 'TRUNCATE' cannot", "'DELETE' removes the table, 'TRUNCATE' removes the database"],
+            "answer": "'DELETE' can be rolled back, 'TRUNCATE' cannot",
+            "explanation": "'DELETE' removes rows and can be rolled back, while 'TRUNCATE' removes all rows quickly and cannot be rolled back."
+        },
+        {
+            "question": "What is the purpose of the 'EXISTS' operator in SQL?",
+            "choices": [
+              "To check if a table exists",
+              "To check if a subquery returns any rows",
+              "To check if a column exists",
+              "To check if a database exists"
+            ],
+            "answer": "To check if a subquery returns any rows",
+            "explanation": "The 'EXISTS' operator is used to test for the existence of any rows in a subquery."
+          },
+          {
+            "question": "What is a clustered index in a database?",
+            "choices": [
+              "An index that stores the actual data rows in the index's leaf nodes",
+              "An index that stores only pointers to the data rows",
+              "An index that is used for full-text search",
+              "An index that is used for spatial data"
+            ],
+            "answer": "An index that stores the actual data rows in the index's leaf nodes",
+            "explanation": "A clustered index defines the physical order of data in a table, and the leaf nodes of the index contain the data rows themselves."
+          },
+          {
+            "question": "Which SQL function is used to calculate the average of a set of values?",
+            "choices": ["SUM()", "COUNT()", "AVG()", "MAX()"],
+            "answer": "AVG()",
+            "explanation": "The 'AVG()' function is used to calculate the average of a set of numerical values."
+          },
+          {
+            "question": "What is a non-clustered index in a database?",
+            "choices": [
+              "An index that stores the actual data rows",
+              "An index that stores only pointers to the data rows",
+              "An index that is used for primary keys",
+              "An index that is used for foreign keys"
+            ],
+            "answer": "An index that stores only pointers to the data rows",
+            "explanation": "A non-clustered index stores pointers to the data rows, allowing for multiple non-clustered indexes on a single table."
+          },
+          {
+            "question": "Which SQL function is used to count the number of rows in a table?",
+            "choices": ["SUM()", "AVG()", "COUNT()", "MAX()"],
+            "answer": "COUNT()",
+            "explanation": "The 'COUNT()' function is used to count the number of rows in a table or the number of non-NULL values in a column."
+          },
+          {
+            "question": "What is a database deadlock?",
+            "choices": [
+              "A situation where a database crashes",
+              "A situation where two or more transactions are waiting for each other to release locks",
+              "A situation where a database runs out of storage space",
+              "A situation where a database server is overloaded"
+            ],
+            "answer": "A situation where two or more transactions are waiting for each other to release locks",
+            "explanation": "A deadlock occurs when two or more transactions are blocked indefinitely because each is waiting for a lock held by the other."
+          },
+          {
+            "question": "Which SQL function is used to find the maximum value in a set of values?",
+            "choices": ["SUM()", "AVG()", "COUNT()", "MAX()"],
+            "answer": "MAX()",
+            "explanation": "The 'MAX()' function is used to find the maximum value in a set of numerical or string values."
+          },
+          {
+            "question": "What is a database backup?",
+            "choices": [
+              "A copy of the database used for recovery",
+              "A report generated from the database",
+              "A view of the database",
+              "A stored procedure in the database"
+            ],
+            "answer": "A copy of the database used for recovery",
+            "explanation": "A database backup is a copy of the database that can be used to restore the database in case of data loss or corruption."
+          },
+          {
+            "question": "Which SQL function is used to find the minimum value in a set of values?",
+            "choices": ["SUM()", "AVG()", "COUNT()", "MIN()"],
+            "answer": "MIN()",
+            "explanation": "The 'MIN()' function is used to find the minimum value in a set of numerical or string values."
+          },
+          {
+            "question": "What is a database restore?",
+            "choices": [
+              "A process of creating a database backup",
+              "A process of recovering a database from a backup",
+              "A process of creating a database view",
+              "A process of creating a stored procedure"
+            ],
+            "answer": "A process of recovering a database from a backup",
+            "explanation": "A database restore is the process of recovering a database from a backup, typically after data loss or corruption."
+          },
+            {
+                "question":"What is a correlated subquery?",
+                "choices":["A subquery that is not related to the outer query","A subquery that depends on the outer query for its values","A subquery that returns a single value","A subquery that returns multiple rows"],
+                "answer":"A subquery that depends on the outer query for its values",
+                "explanation":"A correlated subquery is a subquery that uses values from the outer query. It is executed once for each row processed by the outer query."
+            },
+            {
+                "question":"What is the purpose of the 'COALESCE' function in SQL?",
+                "choices":["To combine two strings","To convert a value to a different data type","To return the first non-null value in a list","To count the number of null values"],
+                "answer":"To return the first non-null value in a list",
+                "explanation":"The 'COALESCE' function returns the first non-null expression in a list of expressions."
+            },
+            {
+                "question":"What is a recursive query in SQL?",
+                "choices":["A query that joins a table to itself","A query that calls itself","A query that uses a correlated subquery","A query that uses a subquery"],
+                "answer":"A query that calls itself",
+                "explanation":"A recursive query is a query that calls itself, used to traverse hierarchical data or perform iterative operations."
+            },
+            {
+                "question":"What is the purpose of the 'EXPLAIN' command in SQL?",
+                "choices":["To execute a query","To optimize a query","To show the execution plan of a query","To create a new index"],
+                "answer":"To show the execution plan of a query",
+                "explanation":"The 'EXPLAIN' command shows the execution plan of a query, helping to identify performance bottlenecks."
+            },
+            {
+                "question":"What is a snapshot in database terminology?",
+                "choices":["A backup of the database","A read-only copy of a database at a specific point in time","A view of the database","A stored procedure"],
+                "answer":"A read-only copy of a database at a specific point in time",
+                "explanation":"A snapshot is a read-only copy of a database at a specific point in time, used for reporting or data analysis."
+            },
+            {
+                "question":"What is the purpose of the 'ROLLBACK' command in SQL?",
+                "choices":["To save changes to the database","To undo changes made during a transaction","To delete a table","To create a new database"],
+                "answer":"To undo changes made during a transaction",
+                "explanation":"The 'ROLLBACK' command is used to undo changes made during a transaction, restoring the database to its previous state."
+            },
+            {
+                "question":"What is the purpose of the 'COMMIT' command in SQL?",
+                "choices":["To undo changes made during a transaction","To save changes made during a transaction","To delete a database","To create a new table"],
+                "answer":"To save changes made during a transaction",
+                "explanation":"The 'COMMIT' command is used to save all changes made during a transaction, making them permanent."
+            },
+            {
+                "question":"What is the purpose of the 'SAVEPOINT' command in SQL?",
+                "choices":["To create a backup","To create a point within a transaction to which you can rollback","To create a new table","To create a new database"],
+                "answer":"To create a point within a transaction to which you can rollback",
+                "explanation":"The 'SAVEPOINT' command is used to create a point within a transaction to which you can rollback, allowing for partial rollbacks."
+            },
+            {
+                "question":"What is denormalization in database design?",
+                "choices":["The process of removing redundant data","The process of adding redundant data to improve performance","The process of creating indexes","The process of creating views"],
+                "answer":"The process of adding redundant data to improve performance",
+                "explanation":"Denormalization is the process of adding redundant data to a database to improve the performance of read operations, at the cost of increased data redundancy."
+            },
+            {
+                "question": "Given a database with 'Employees' (emp_id, name, department, salary) and 'Departments' (dept_id, dept_name, location), write a SQL query to find the names of employees who earn more than the average salary of their respective departments. Display the employee name, department name, and salary.",
+                "choices": [
+                  "SELECT e.name, d.dept_name, e.salary FROM Employees e JOIN Departments d ON e.department = d.dept_id WHERE e.salary > AVG(e.salary);",
+                  "SELECT e.name, d.dept_name, e.salary FROM Employees e JOIN Departments d ON e.department = d.dept_id WHERE e.salary > (SELECT AVG(salary) FROM Employees WHERE department = e.department);",
+                  "SELECT e.name, d.dept_name, e.salary FROM Employees e, Departments d WHERE e.department = d.dept_id AND e.salary > AVG(e.salary) GROUP BY e.department;",
+                  "SELECT e.name, d.dept_name, e.salary FROM Employees e JOIN Departments d ON e.department = d.dept_id HAVING e.salary > AVG(e.salary);"
+                ],
+                "answer": "SELECT e.name, d.dept_name, e.salary FROM Employees e JOIN Departments d ON e.department = d.dept_id WHERE e.salary > (SELECT AVG(salary) FROM Employees WHERE department = e.department);",
+                "explanation": "This query uses a correlated subquery to calculate the average salary for each department and then filters employees whose salary is greater than that average."
+              },
+              {
+                "question": "Design a relational database schema for an online bookstore. Include tables for 'Books' (book_id, title, author, price, genre), 'Customers' (customer_id, name, email, address), and 'Orders' (order_id, customer_id, order_date, total_amount). Describe the relationships between the tables and specify primary and foreign keys. Write a SQL query to list the titles of books ordered by a specific customer.",
+                "choices": [
+                  "No SQL query needed; schema description is sufficient.",
+                  "SELECT b.title FROM Books b JOIN Orders o ON b.book_id = o.book_id WHERE o.customer_id = 'specific_customer_id';",
+                  "SELECT b.title FROM Books b, Customers c, Orders o WHERE b.book_id = o.book_id AND c.customer_id = o.customer_id AND c.name = 'specific_customer_name';",
+                  "SELECT title FROM Books WHERE author IN (SELECT author FROM Orders WHERE customer_id = 'specific_customer_id');"
+                ],
+                "answer": "SELECT b.title FROM Books b JOIN Orders o ON b.book_id = o.book_id WHERE o.customer_id = 'specific_customer_id';",
+                "explanation": "This query joins the 'Books' and 'Orders' tables based on the 'book_id' and filters the results to only include orders from the specified customer."
+              },
+              {
+                "question": "Implement a stored procedure in SQL that calculates the total sales for a given product within a specified date range. Assume you have tables 'Products' (product_id, product_name, price) and 'Sales' (sale_id, product_id, sale_date, quantity). The procedure should take product_id, start_date, and end_date as input parameters and return the total sales amount.",
+                "choices": [
+                  "CREATE PROCEDURE CalculateTotalSales (IN prod_id INT, IN start_date DATE, IN end_date DATE) BEGIN SELECT SUM(p.price * s.quantity) FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE s.product_id = prod_id AND s.sale_date BETWEEN start_date AND end_date; END;",
+                  "CREATE FUNCTION CalculateTotalSales (prod_id INT, start_date DATE, end_date DATE) RETURNS INT BEGIN RETURN (SELECT SUM(p.price * s.quantity) FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE s.product_id = prod_id AND s.sale_date BETWEEN start_date AND end_date); END;",
+                  "CREATE TRIGGER CalculateTotalSales BEFORE INSERT ON Sales FOR EACH ROW BEGIN SET @total_sales = SUM(p.price * s.quantity) FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE s.product_id = prod_id AND s.sale_date BETWEEN start_date AND end_date; END;",
+                  "CREATE VIEW CalculateTotalSales AS SELECT SUM(p.price * s.quantity) FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE s.product_id = prod_id AND s.sale_date BETWEEN start_date AND end_date;"
+                ],
+                "answer": "CREATE PROCEDURE CalculateTotalSales (IN prod_id INT, IN start_date DATE, IN end_date DATE) BEGIN SELECT SUM(p.price * s.quantity) FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE s.product_id = prod_id AND s.sale_date BETWEEN start_date AND end_date; END;",
+                "explanation": "This stored procedure takes input parameters, performs a join and aggregate calculation, and returns the result. Using a stored procedure is correct for this case."
+              },
+              {
+                "question": "Given a table 'Logs' (log_id, user_id, timestamp, action), write a SQL query to find users who performed at least three different actions within the last 24 hours. Display the user_id and the count of distinct actions.",
+                "choices": [
+                  "SELECT user_id, COUNT(DISTINCT action) FROM Logs WHERE timestamp > NOW() - INTERVAL '24 hours' GROUP BY user_id HAVING COUNT(DISTINCT action) >= 3;",
+                  "SELECT user_id, COUNT(action) FROM Logs WHERE timestamp > NOW() - INTERVAL '24 hours' GROUP BY user_id HAVING COUNT(action) >= 3;",
+                  "SELECT user_id, action FROM Logs WHERE timestamp > NOW() - INTERVAL '24 hours' GROUP BY user_id HAVING COUNT(action) >= 3;",
+                  "SELECT user_id, action FROM Logs WHERE timestamp > NOW() - INTERVAL '24 hours' HAVING COUNT(action) >= 3;"
+                ],
+                "answer": "SELECT user_id, COUNT(DISTINCT action) FROM Logs WHERE timestamp > NOW() - INTERVAL '24 hours' GROUP BY user_id HAVING COUNT(DISTINCT action) >= 3;",
+                "explanation": "This query filters logs within the last 24 hours, groups them by user_id, and uses COUNT(DISTINCT action) to count the number of different actions, then filtering based on the HAVING clause."
+              },
+              {
+                "question":"Given tables 'Students' (student_id, name, major) and 'Courses' (course_id, course_name, credits) and 'Enrollments'(student_id, course_id, grade), write a sql query to find students who are enrolled in all courses that are in the same major as their own.",
+                "choices":[
+                  "SELECT s.name from Students s JOIN Enrollments e on s.student_id = e.student_id JOIN Courses c on e.course_id = c.course_id WHERE c.course_id IN (SELECT course_id FROM Courses WHERE course_id IN (SELECT course_id from Enrollments where student_id = s.student_id))",
+                  "SELECT s.name from Students s WHERE NOT EXISTS (SELECT c.course_id from Courses c WHERE c.course_id IN (SELECT course_id FROM Enrollments WHERE student_id = s.student_id) AND NOT EXISTS (SELECT e.course_id FROM Enrollments e WHERE e.student_id = s.student_id AND e.course_id = c.course_id))",
+                  "SELECT s.name FROM Students s JOIN Enrollments e ON s.student_id = e.student_id JOIN Courses c ON e.course_id = c.course_id WHERE s.major = c.major",
+                  "SELECT s.name FROM Students s JOIN Enrollments e ON s.student_id = e.student_id JOIN Courses c ON e.course_id = c.course_id WHERE c.major = s.major GROUP BY s.name HAVING COUNT(DISTINCT c.course_id) = (SELECT COUNT(DISTINCT course_id) FROM Courses WHERE course_id IN (SELECT course_id FROM Enrollments WHERE student_id = s.student_id));"
+
+                ]},
+                {
+                    "question": "Given a database with 'Products' (product_id, name, category, price) and 'Sales' (sale_id, product_id, sale_date, quantity), write a SQL query to find the top 3 categories with the highest total sales amount for the year 2023. Display the category name and the total sales amount.",
+                    "choices": [
+                      "SELECT p.category, SUM(p.price * s.quantity) AS total_sales FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE YEAR(s.sale_date) = 2023 ORDER BY total_sales DESC LIMIT 3;",
+                      "SELECT p.category, SUM(p.price * s.quantity) AS total_sales FROM Products p, Sales s WHERE p.product_id = s.product_id AND s.sale_date LIKE '2023%' GROUP BY p.category ORDER BY total_sales LIMIT 3;",
+                      "SELECT category, SUM(price * quantity) FROM Products JOIN Sales WHERE sale_date BETWEEN '2023-01-01' AND '2023-12-31' ORDER BY SUM(price * quantity) DESC LIMIT 3;",
+                      "SELECT p.category, MAX(p.price * s.quantity) AS total_sales FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE YEAR(s.sale_date) = 2023 GROUP BY p.category ORDER BY total_sales DESC LIMIT 3;"
+                    ],
+                    "answer": "SELECT p.category, SUM(p.price * s.quantity) AS total_sales FROM Products p JOIN Sales s ON p.product_id = s.product_id WHERE YEAR(s.sale_date) = 2023 ORDER BY total_sales DESC LIMIT 3;",
+                    "explanation": "This query joins 'Products' and 'Sales', filters for 2023, groups by category, calculates total sales, orders by total sales descending, and limits to the top 3."
+                  },
+                  {
+                    "question": "Design a database schema for a social media platform. Include tables for 'Users' (user_id, username, email, registration_date), 'Posts' (post_id, user_id, content, timestamp), and 'Follows' (follower_id, followee_id, follow_date). Describe the relationships between tables and specify primary and foreign keys. Write a SQL query to find the usernames of users who follow a specific user.",
+                    "choices": [
+                      "No SQL query needed; schema description is sufficient.",
+                      "SELECT u.username FROM Users u JOIN Follows f ON u.user_id = f.follower_id WHERE f.followee_id = 'specific_user_id';",
+                      "SELECT u.username FROM Users u JOIN Posts p ON u.user_id = p.user_id WHERE p.user_id = 'specific_user_id';",
+                      "SELECT username FROM Users WHERE user_id IN (SELECT follower_id FROM Follows WHERE followee_id = 'specific_user_id');"
+                    ],
+                    "answer": "SELECT u.username FROM Users u JOIN Follows f ON u.user_id = f.follower_id WHERE f.followee_id = 'specific_user_id';",
+                    "explanation": "This query joins 'Users' and 'Follows' based on the follower_id, filtering for the specified followee_id, and selects the follower's username."
+                  },
+                  {
+                    "question": "Implement a SQL trigger that automatically updates a 'LastModified' column in a 'Projects' table (project_id, project_name, status, LastModified) whenever a row is updated. The 'LastModified' column should store the current timestamp.",
+                    "choices": [
+                      "CREATE TRIGGER UpdateLastModified BEFORE UPDATE ON Projects FOR EACH ROW SET NEW.LastModified = NOW();",
+                      "CREATE PROCEDURE UpdateLastModified() BEGIN UPDATE Projects SET LastModified = NOW() WHERE project_id = project_id; END;",
+                      "CREATE VIEW UpdateLastModified AS SELECT project_id, project_name, status, NOW() AS LastModified FROM Projects;",
+                      "CREATE FUNCTION UpdateLastModified() RETURNS TIMESTAMP BEGIN RETURN NOW(); END;"
+                    ],
+                    "answer": "CREATE TRIGGER UpdateLastModified BEFORE UPDATE ON Projects FOR EACH ROW SET NEW.LastModified = NOW();",
+                    "explanation": "This trigger fires before each UPDATE operation on the 'Projects' table and sets the 'LastModified' column to the current timestamp using NOW()."
+                  },
+                  {
+                    "question": "Given a table 'Events' (event_id, event_name, start_time, end_time), write a SQL query to find events that overlap with a given time range (start_time_input, end_time_input).",
+                    "choices": [
+                      "SELECT * FROM Events WHERE start_time <= end_time_input AND end_time >= start_time_input;",
+                      "SELECT * FROM Events WHERE start_time BETWEEN start_time_input AND end_time_input;",
+                      "SELECT * FROM Events WHERE end_time BETWEEN start_time_input AND end_time_input;",
+                      "SELECT * FROM Events WHERE start_time = start_time_input AND end_time = end_time_input;"
+                    ],
+                    "answer": "SELECT * FROM Events WHERE start_time <= end_time_input AND end_time >= start_time_input;",
+                    "explanation": "This query checks for overlap by ensuring the event's start time is not after the input end time, and the event's end time is not before the input start time."
+                  },
+                    {
+                        "question":"Given tables 'Employees' (emp_id, name, manager_id) write a recursive common table expression (CTE) to find all the subordinates of a given employee.",
+                        "choices":[
+                            "WITH RECURSIVE Subordinates AS (SELECT emp_id, name FROM Employees WHERE emp_id = 'given_emp_id' UNION ALL SELECT e.emp_id, e.name FROM Employees e JOIN Subordinates s ON e.manager_id = s.emp_id) SELECT * FROM Subordinates;",
+                            "SELECT * FROM Employees WHERE manager_id = 'given_emp_id';",
+                            "SELECT * FROM Employees WHERE emp_id IN (SELECT manager_id from Employees WHERE emp_id = 'given_emp_id');",
+                            "SELECT emp_id, name from Employees WHERE manager_id = (SELECT emp_id from Employees where emp_id = 'given_emp_id')"
+                        ],
+                        "answer":"WITH RECURSIVE Subordinates AS (SELECT emp_id, name FROM Employees WHERE emp_id = 'given_emp_id' UNION ALL SELECT e.emp_id, e.name FROM Employees e JOIN Subordinates s ON e.manager_id = s.emp_id) SELECT * FROM Subordinates;",
+                        "explanation":"This CTE starts with the given employee and recursively joins with employees whose manager is in the previous level of the CTE."
+               },
+               {
+                "question": "Which SQL statement is used to insert a new row into a table?",
+                "choices": [
+                  "ADD ROW",
+                  "INSERT INTO",
+                  "CREATE ROW",
+                  "NEW ROW"
+                ],
+                "answer": "INSERT INTO",
+                "explanation": "The `INSERT INTO` statement is the correct SQL syntax for adding new rows to a table."
+              },
+              {
+                "question": "Given a table 'Customers' (customer_id, name, email), which SQL statement would insert a new customer with customer_id=1, name='John Doe', and email='john.doe@example.com'?",
+                "choices": [
+                  "INSERT INTO Customers VALUES (1, 'John Doe', 'john.doe@example.com');",
+                  "INSERT Customers (customer_id, name, email) VALUES (1, 'John Doe', 'john.doe@example.com');",
+                  "INSERT INTO Customers (1, 'John Doe', 'john.doe@example.com');",
+                  "ADD ROW TO Customers VALUES (customer_id=1, name='John Doe', email='john.doe@example.com');"
+                ],
+                "answer": "INSERT INTO Customers VALUES (1, 'John Doe', 'john.doe@example.com');",
+                "explanation": "This statement correctly uses `INSERT INTO` and provides the values in the order of the columns."
+              },
+              {
+                "question": "If you want to insert a new row into a table but only provide values for some of the columns, which SQL statement would you use?",
+                "choices": [
+                  "INSERT INTO table_name VALUES (value1, value2);",
+                  "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+                  "INSERT table_name (value1, value2) INTO (column1, column2);",
+                  "INSERT VALUES (value1, value2) INTO table_name (column1, column2);"
+                ],
+                "answer": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);",
+                "explanation": "This statement specifies the columns for which values are provided."
+              },
+              {
+                "question": "What happens if you try to insert a row with a duplicate value in a column that has a UNIQUE constraint?",
+                "choices": [
+                  "The row will be inserted, and the duplicate value will be allowed.",
+                  "The insertion will fail and an error will be returned.",
+                  "The duplicate value will be automatically replaced with a new value.",
+                  "The row will be inserted, but a warning will be issued."
+                ],
+                "answer": "The insertion will fail and an error will be returned.",
+                "explanation": "A UNIQUE constraint prevents duplicate values in a column, so an insertion with a duplicate will violate the constraint and cause an error."
+              },
+              {
+                "question": "Which SQL keyword is used to insert multiple rows into a table in a single statement (in some database systems)?",
+                "choices": [
+                  "MULTI INSERT",
+                  "INSERT ALL",
+                  "INSERT MANY",
+                  "INSERT INTO ... VALUES (...), (...), (...)"
+                ],
+                "answer": "INSERT INTO ... VALUES (...), (...), (...)",
+                "explanation": "Many database systems allow inserting multiple rows using a single INSERT statement with multiple sets of values separated by commas."
+              },
+              {
+                "question": "Given a 'Users' table (user_id, username, role) and a 'Logs' table (log_id, user_id, action, timestamp), write a SQL statement that inserts a new log entry into the 'Logs' table when a new user is created in the 'Users' table. The log entry should include the new user's user_id and an action indicating 'User Created'. (Consider this as a trigger-like scenario, but focus on the INSERT statement used within that logic).",
+                "choices": [
+                  "INSERT INTO Logs (user_id, action) VALUES (NEW.user_id, 'User Created');",
+                  "INSERT INTO Logs (user_id, action) SELECT user_id, 'User Created' FROM Users;",
+                  "INSERT INTO Logs (user_id, action) VALUES (Users.user_id, 'User Created');",
+                  "INSERT INTO Logs (user_id, action) VALUES (SELECT user_id FROM Users, 'User Created');"
+                ],
+                "answer": "INSERT INTO Logs (user_id, action) VALUES (NEW.user_id, 'User Created');",
+                "explanation": "This statement, typically used within a trigger or stored procedure, correctly inserts into Logs, using NEW.user_id (which would be available in a trigger context) to get the ID of the newly inserted user."
+              },
+              {
+                "question": "You have a table 'Orders' (order_id, customer_id, order_date) and a table 'Customers' (customer_id, name, status). Write a SQL statement that inserts a new order into the 'Orders' table. The customer_id for the order should be retrieved from the 'Customers' table based on the customer's name, and the customer's status should be checked to be 'Active' before inserting the order. (Focus on the INSERT and SELECT used together).",
+                "choices": [
+                  "INSERT INTO Orders (customer_id, order_date) VALUES ((SELECT customer_id FROM Customers WHERE name = 'Customer Name' AND status = 'Active'), '2025-03-16');",
+                  "INSERT INTO Orders (customer_id, order_date) SELECT customer_id, '2025-03-16' FROM Customers WHERE name = 'Customer Name' AND status = 'Active';",
+                  "INSERT INTO Orders (customer_id, order_date) VALUES (Customers.customer_id, '2025-03-16') WHERE Customers.name = 'Customer Name' AND Customers.status = 'Active';",
+                  "INSERT INTO Orders (customer_id, order_date) VALUES (SELECT customer_id, '2025-03-16' FROM Customers WHERE name = 'Customer Name' AND status = 'Active');"
+                ],
+                "answer": "INSERT INTO Orders (customer_id, order_date) VALUES ((SELECT customer_id FROM Customers WHERE name = 'Customer Name' AND status = 'Active'), '2025-03-16');",
+                "explanation": "This statement uses a subquery to select the customer_id based on name and status, then uses that customer_id in the INSERT statement."
+              },
+              {
+                "question": "Given a table 'Products' (product_id, name, price, quantity_in_stock) and a table 'Sales' (sale_id, product_id, quantity_sold), write a SQL statement that inserts a new sale record into the 'Sales' table and simultaneously updates the 'quantity_in_stock' in the 'Products' table by subtracting the 'quantity_sold'. (Focus on how you would combine the INSERT and UPDATE or a similar approach).",
+                "choices": [
+                  "INSERT INTO Sales (product_id, quantity_sold) VALUES (101, 5); UPDATE Products SET quantity_in_stock = quantity_in_stock - 5 WHERE product_id = 101;",
+                  "INSERT INTO Sales (product_id, quantity_sold) VALUES (101, 5) AND UPDATE Products SET quantity_in_stock = quantity_in_stock - 5 WHERE product_id = 101;",
+                  "INSERT INTO Sales (product_id, quantity_sold) VALUES (101, 5) UPDATE Products SET quantity_in_stock = quantity_in_stock - 5 WHERE product_id = 101;",
+                  "INSERT INTO Sales (product_id, quantity_sold) VALUES (101, 5) INTO Products (quantity_in_stock) VALUES (quantity_in_stock - 5) WHERE product_id = 101;"
+                ],
+                "answer": "INSERT INTO Sales (product_id, quantity_sold) VALUES (101, 5); UPDATE Products SET quantity_in_stock = quantity_in_stock - 5 WHERE product_id = 101;",
+                "explanation": "While some databases might offer ways to combine this into a more atomic operation, this choice represents the most straightforward and common way to achieve this outcome: an INSERT statement followed by an UPDATE statement."
+              },
+              {
+                "question": "You have two tables: 'Temp_Customers' (customer_id, name, email) and 'Customers' (customer_id, name, email, status). Write a SQL statement that inserts all customers from the 'Temp_Customers' table into the 'Customers' table, setting their status to 'Pending'.",
+                "choices": [
+                  "INSERT INTO Customers (SELECT customer_id, name, email, 'Pending' FROM Temp_Customers);",
+                  "INSERT INTO Customers (customer_id, name, email, status) VALUES (SELECT customer_id, name, email FROM Temp_Customers, 'Pending');",
+                  "INSERT INTO Customers (customer_id, name, email, status) SELECT customer_id, name, email, 'Pending' FROM Temp_Customers;",
+                  "INSERT INTO Customers (SELECT customer_id, name, email FROM Temp_Customers) VALUES (status, 'Pending');"
+                ],
+                "answer": "INSERT INTO Customers (customer_id, name, email, status) SELECT customer_id, name, email, 'Pending' FROM Temp_Customers;",
+                "explanation": "This statement uses `INSERT INTO ... SELECT` to insert data from one table into another, including a constant value ('Pending') for the 'status' column."
+              },
+              {
+                "question": "Given a table 'Orders' (order_id, customer_id, order_date, total_amount) and a table 'OrderDetails' (order_detail_id, order_id, product_id, quantity, price), write a SQL statement that inserts a new order into the 'Orders' table and then, using the generated order_id, inserts multiple order details into the 'OrderDetails' table. (Consider how you would handle this in a procedural context, focusing on the INSERT statements and retrieval of the generated ID).",
+                "choices": [
+                  "INSERT INTO Orders (customer_id, order_date, total_amount) VALUES (101, '2025-03-16', 150.00); INSERT INTO OrderDetails (order_id, product_id, quantity, price) VALUES (1, 1, 2, 25.00), (1, 2, 1, 100.00);",
+                  "INSERT INTO Orders (customer_id, order_date, total_amount) VALUES (101, '2025-03-16', 150.00) INTO OrderDetails (order_id, product_id, quantity, price) VALUES (1, 1, 2, 25.00), (1, 2, 1, 100.00);",
+                  "INSERT INTO Orders (customer_id, order_date, total_amount) VALUES (101, '2025-03-16', 150.00) THEN INSERT INTO OrderDetails (order_id, product_id, quantity, price) VALUES (1, 1, 2, 25.00), (1, 2, 1, 100.00);",
+                  "INSERT INTO Orders (customer_id, order_date, total_amount) VALUES (101, '2025-03-16', 150.00) AND INSERT INTO OrderDetails (order_id, product_id, quantity, price) VALUES (1, 1, 2, 25.00), (1, 2, 1, 100.00);"
+                ],
+                "answer": "INSERT INTO Orders (customer_id, order_date, total_amount) VALUES (101, '2025-03-16', 150.00); INSERT INTO OrderDetails (order_id, product_id, quantity, price) VALUES (1, 1, 2, 25.00), (1, 2, 1, 100.00);",
+                "explanation": "This choice shows the correct sequence: First, insert the order. Then, you would typically retrieve the generated order_id (using `LAST_INSERT_ID()` in MySQL, or similar functions in other systems) and use that ID in the subsequent `INSERT` statements for the order details. This choice represents the two INSERT statements you would use."
+              },
+              {
+                "question": "Which SQL command is used to remove rows from a table?",
+                "choices": ["REMOVE", "DELETE", "DROP", "TRUNCATE"],
+                "answer": "DELETE",
+                "explanation": "The DELETE command is used to remove rows from a table based on a specified condition."
+              },
+              {
+                "question": "How do you delete all rows from a table named 'Customers'?",
+                "choices": [
+                  "REMOVE * FROM Customers;",
+                  "DELETE ALL FROM Customers;",
+                  "DELETE FROM Customers;",
+                  "TRUNCATE TABLE Customers;"
+                ],
+                "answer": "DELETE FROM Customers;",
+                "explanation": "Without a WHERE clause, DELETE FROM removes all rows. TRUNCATE is also valid and is faster, but it has slightly different behavior."
+              },
+              {
+                "question": "How do you delete rows from a table named 'Orders' where the 'order_date' is before '2023-01-01'?",
+                "choices": [
+                  "DELETE FROM Orders WHERE order_date < '2023-01-01';",
+                  "REMOVE FROM Orders IF order_date < '2023-01-01';",
+                  "DELETE Orders IF order_date BEFORE '2023-01-01';",
+                  "DELETE Orders order_date BEFORE '2023-01-01';"
+                ],
+                "answer": "DELETE FROM Orders WHERE order_date < '2023-01-01';",
+                "explanation": "This statement correctly uses the WHERE clause to specify the condition for deleting rows."
+              },
+              {
+                "question": "What happens if you execute a DELETE statement without a WHERE clause?",
+                "choices": [
+                  "It deletes the entire table.",
+                  "It deletes all rows from the table.",
+                  "It deletes the first row in the table.",
+                  "It returns an error."
+                ],
+                "answer": "It deletes all rows from the table.",
+                "explanation": "Without a WHERE clause, the DELETE command removes all rows from the specified table."
+              },
+              {
+                "question": "Which SQL command is used to remove a table and its data from the database?",
+                "choices": ["DELETE TABLE", "REMOVE TABLE", "DROP TABLE", "TRUNCATE TABLE"],
+                "answer": "DROP TABLE",
+                "explanation": "The DROP TABLE command is used to remove a table and its data from the database."
+              },
+              {
+                "question": "What is the difference between DELETE and TRUNCATE?",
+                "choices": [
+                  "DELETE removes rows based on a condition, TRUNCATE removes all rows quickly.",
+                  "DELETE removes the table, TRUNCATE removes rows.",
+                  "DELETE is faster, TRUNCATE is slower.",
+                  "They are the same."
+                ],
+                "answer": "DELETE removes rows based on a condition, TRUNCATE removes all rows quickly.",
+                "explanation": "DELETE removes rows based on a condition and can be rolled back. TRUNCATE removes all rows quickly and cannot be rolled back."
+              },
+              {
+                "question": "How do you delete rows from a table 'Employees' where the 'department' is 'Sales' and the 'salary' is less than 50000?",
+                "choices": [
+                  "DELETE FROM Employees WHERE department = 'Sales' AND salary < 50000;",
+                  "REMOVE Employees WHERE department = 'Sales' AND salary < 50000;",
+                  "DELETE Employees IF department = 'Sales' AND salary < 50000;",
+                  "DELETE FROM Employees IF department = 'Sales' AND salary < 50000;"
+                ],
+                "answer": "DELETE FROM Employees WHERE department = 'Sales' AND salary < 50000;",
+                "explanation": "This statement correctly uses the WHERE clause with AND to specify multiple conditions."
+              },
+              {
+                "question": "What happens to the auto-increment counter when you use DELETE to remove rows from a table?",
+                "choices": [
+                  "The counter is reset.",
+                  "The counter is not affected.",
+                  "The counter is decremented.",
+                  "It depends on the database system."
+                ],
+                "answer": "The counter is not affected.",
+                "explanation": "DELETE does not reset the auto-increment counter. TRUNCATE, however, typically resets it."
+              },
+              {
+                "question": "How do you delete all rows from a table 'Products' and reset the auto-increment counter?",
+                "choices": [
+                  "DELETE FROM Products;",
+                  "DROP TABLE Products;",
+                  "TRUNCATE TABLE Products;",
+                  "REMOVE ALL FROM Products;"
+                ],
+                "answer": "TRUNCATE TABLE Products;",
+                "explanation": "TRUNCATE TABLE removes all rows and resets the auto-increment counter."
+              },
+              {
+                "question": "Given tables 'Orders' (order_id, customer_id) and 'Customers' (customer_id, name), how do you delete all orders for a specific customer named 'John Doe'?",
+                "choices": [
+                  "DELETE FROM Orders WHERE customer_id = (SELECT customer_id FROM Customers WHERE name = 'John Doe');",
+                  "DELETE FROM Orders WHERE customer_id IN (SELECT customer_id FROM Customers WHERE name = 'John Doe');",
+                  "DELETE FROM Orders WHERE customer_id = Customers.customer_id AND Customers.name = 'John Doe';",
+                  "DELETE FROM Orders JOIN Customers ON Orders.customer_id = Customers.customer_id WHERE Customers.name = 'John Doe';"
+                ],
+                "answer": "DELETE FROM Orders WHERE customer_id = (SELECT customer_id FROM Customers WHERE name = 'John Doe');",
+                "explanation": "This statement uses a subquery to find the customer_id for 'John Doe' and then deletes the corresponding orders. The 'IN' clause will also work correctly in this case, but using '=' is more efficient when one customer_id is expected."
+              }
+  ]

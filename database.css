@@ -1,0 +1,211 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.question h3 {
+    margin-top: 0;
+}
+
+.question label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f0f8ff;
+}
+
+#results h2 {
+    margin-top: 0;
+}
+
+#results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#results li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#results li:last-child {
+    border-bottom: none;
+}
+
+#results li.correct {
+    background-color: #e6ffe6; /* Light green for correct answers */
+}
+
+#results li.incorrect {
+    background-color: #ffe6e6; /* Light red for incorrect answers */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.question h3 {
+    margin-top: 0;
+}
+
+.question label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f0f8ff;
+}
+
+#results h2 {
+    margin-top: 0;
+}
+
+#results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#results li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#results li:last-child {
+    border-bottom: none;
+}
+
+#results li.correct {
+    background-color: #e6ffe6; /* Light green for correct answers */
+}
+
+#results li.incorrect {
+    background-color: #ffe6e6; /* Light red for incorrect answers */
+}
+
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+.question label {
+    display: inline-flex;
+    align-items: center; /* Vertically align the radio button and text */
+    margin-right: 15px; /* Adjust as needed for space between choice groups */
+}
+
+.question label input[type="radio"] {
+    margin-right: 8px;
+    padding: 4px; /* Adjust space between radio button and text */
+}
+
+
+.choice-color-1,.choice-color-2,.choice-color-3,.choice-color-4,.choice-color-5,.choice-color-0 
+
+{
+    color: blue;
+}
+

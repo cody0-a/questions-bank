@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        /* CSS Styles */
+        .user-info {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .user-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .user-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .user-details h3 {
+            margin-bottom: 5px;
+        }
+
+        .user-contact {
+            flex-grow: 1;
+        }
+
+        .user-contact h4 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .user-contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .user-contact ul li {
+            margin-bottom: 8px;
+        }
+
+        .user-contact ul li a {
+            display: flex;
+            align-items: center;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .user-contact ul li a:hover {
+            color: #007bff;
+        }
+
+        .user-contact ul li a i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="user-info">
+        <div class="user-details">
+            <img src="user-avatar.jpg" alt="User Avatar" class="user-avatar">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+        </div>
+        <div class="user-contact">
+            <h4>Contact:</h4>
+            <ul>
+                <li>
+                    <a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer">
+                        <i class="material-icons">send</i>
+                        Telegram
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:john.doe@example.com">
+                        <i class="material-icons">email</i>
+                        Email
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+1234567890">
+                        <i class="material-icons">phone</i>
+                        Phone
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer">
+                        <i class="material-icons">facebook</i>
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/yourxhandle" target="_blank" rel="noopener noreferrer">
+                        <i class="material-icons">logo_twitter</i>
+                        X
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
